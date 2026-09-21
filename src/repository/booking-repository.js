@@ -33,9 +33,9 @@ class BookingRepository {
             throw new AppError(
                 'RepositoryError',
                 'Cannot update Booking',
-                'There was some issue updating the booking, please try again later',
+                'There was some error while updating the booking, please try again later',
                 StatusCodes.INTERNAL_SERVER_ERROR
-            );
+            )
         }
     }
 }
